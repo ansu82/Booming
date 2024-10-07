@@ -1,0 +1,59 @@
+.box{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: auto;
+
+}
+
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(24, 222, 222);
+    position:absolute;
+    top: 100px;
+    left: 100px;
+  
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(203, 54, 13);
+    position:absolute;
+    top: 150px;
+    left: 150px;
+  
+}
+#greetings p{
+    background-color: rgb(97, 242, 252);
+    padding: 10px;
+    display: none;
+}
+
+#greetings:hover p{
+    display: block;
+}
+
+#greetings:active p{
+    background-color: rgb(228, 0, 0);
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+
+}
+#ps::first-line{
+    background-color:rgb(235, 248, 46);
+}
+#ps ::selection{
+    color: rgb(50, 244, 50);
+    background-color: hsl(0, 0%, 22%);
+}
+
+#fruit li ::before{
+  
+}
